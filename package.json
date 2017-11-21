@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node ./src/app.js",
+    "build": "node-sass public/style/style.scss > public/style/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +21,7 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
+    "node-sass": "^4.7.2",
     "pug": "^2.0.0-rc.4"
   }
 }

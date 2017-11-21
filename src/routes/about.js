@@ -1,11 +1,7 @@
 const router = require('express').Router();
-const about = require('./about');
 
 router.get('/', (req, res) => {
-  res.render('index');
-});
-
-router.use('/about', about);
-
+  res.render('about');
+})
 
 module.exports = router;

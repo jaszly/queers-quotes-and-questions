@@ -1,0 +1,23 @@
+{
+  "name": "queers-quotes-and-questions",
+  "version": "1.0.0",
+  "description": "An informative and inspirational site for lgbtqs and allies",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaszly/queers-quotes-and-questions.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaszly/queers-quotes-and-questions/issues"
+  },
+  "homepage": "https://github.com/jaszly/queers-quotes-and-questions#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}

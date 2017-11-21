@@ -1,3 +1,52 @@
+// theme colors
+$PrimaryColor: #00FDDC;
+$SecondaryColor: #FF5666;
+$TernaryColor: #E8D7FF;
+$QuaternaryColor: #FFD7D5;
+
+@font-face {
+	font-family: 'ubuntu-regular';
+	src: url('../fonts/Ubuntu-Regular.ttf') format('truetype');
+}
+
 * {
 	box-sizing: border-box;
+}
+
+body, html {
+	width: 100%;
+	height: 100vh;
+	font-family: 'ubuntu-regular';
+	background: linear-gradient(to bottom right, $TernaryColor, $QuaternaryColor);
+}
+
+.logo {
+	width: 12vh;
+}
+
+.logobar {
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+a:link, a:visited, a:active {
+	text-decoration: none;
+	font-size: 32pt;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.navbar {
+	ul {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
 }

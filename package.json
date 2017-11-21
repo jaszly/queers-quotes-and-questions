@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node ./src/app.js",
-    "build": "node-sass -o compressed public/style/style.scss > public/style/style.css",
+    "build": "node-sass public/style/style.scss > public/style/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

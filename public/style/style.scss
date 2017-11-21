@@ -1,8 +1,10 @@
 // theme colors
 $PrimaryColor: #00FDDC;
 $SecondaryColor: #FF5666;
-$TernaryColor: #E8D7FF;
-$QuaternaryColor: #FFD7D5;
+$TernaryColor: #AE76A6;
+$QuaternaryColor: #72A8EA;
+$LogoColor: #EEBEEA;
+$FontColor: #DFD9E2;
 
 @font-face {
 	font-family: 'ubuntu-regular';
@@ -20,33 +22,42 @@ body, html {
 	background: linear-gradient(to bottom right, $TernaryColor, $QuaternaryColor);
 }
 
-.logo {
-	width: 12vh;
-}
-
 .logobar {
 	width: 85%;
+	margin-top: 1%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 1%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-a:link, a:visited, a:active {
-	text-decoration: none;
-	font-size: 32pt;
-}
-
-a:hover {
-	text-decoration: none;
+.logo {
+	width: 8vh;
 }
 
 .navbar {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 4px solid transparentize($LogoColor, .4);
+	padding: 1%;
+
 	ul {
-		width: 100%;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 	}
+}
+
+a:link, a:visited, a:active {
+	text-decoration: none;
+	font-size: 24pt;
+	color: $LogoColor;
+}
+
+a:hover {
+	text-decoration: none;
+	color: $PrimaryColor;
 }

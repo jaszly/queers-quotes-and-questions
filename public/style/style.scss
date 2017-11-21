@@ -55,7 +55,7 @@ body, html {
 
 a:link, a:visited, a:active {
 	text-decoration: none;
-	font-size: 24pt;
+	font-size: 4vh;
 	color: $LogoColor;
 }
 
@@ -71,12 +71,12 @@ a:hover {
 .quote-container {
 	width: 80%;
 	margin: auto;
-	font-size: 72pt;
+	font-size: 6em;
 	margin-top: 4%;
 }
 
 .project-blurb {
-	font-size: 24pt;
+	font-size: 2em;
 	padding: 2% 2%;
 }
 
@@ -95,7 +95,7 @@ a:hover {
 		}
 
 		.profile-blurb {
-			font-size: 18pt;
+			font-size: 1.4em;
 		}
 	}
 }

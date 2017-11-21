@@ -1,6 +1,12 @@
 extends partials/header.pug
 
 block bodyContent
-  h1 Question Bot
-    div.bot-container
-      p Future home of queerbot.
+  div.bot-container
+  script.
+    window.__be = window.__be || {};
+    window.__be.id = "5a136a0be4bd4900067ad434";
+    (function() {
+      var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
+      be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.botengine.ai/widget/plugin.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
+    })();

@@ -8,6 +8,10 @@ app.set('views', __dirname + '/views');
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: false }));
 
+app.get('/', function (req, res) {
+  res.render('index', { title: 'Hey', message: 'Hello there!' })
+})
+
 const port = process.env.PORT || 3000;
 
 app.listen(port, () => {

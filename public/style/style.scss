@@ -71,12 +71,12 @@ a:hover {
 .quote-container {
 	width: 80%;
 	margin: auto;
-	font-size: 6em;
+	font-size: 10vh;
 	margin-top: 4%;
 }
 
 .project-blurb {
-	font-size: 2em;
+	font-size: 3vh;
 	padding: 2% 2%;
 }
 
@@ -84,9 +84,11 @@ a:hover {
 	display: flex;
 	flex-flow: wrap;
 	justify-content: center;
+	width: 100%;
 
 	.profile {
 		padding: 1% 4%;
+		width: 30%;
 
 		.profile-pic {
 			width: 26vh;
@@ -95,7 +97,7 @@ a:hover {
 		}
 
 		.profile-blurb {
-			font-size: 1.4em;
+			font-size: 2.5vh;
 		}
 	}
 }

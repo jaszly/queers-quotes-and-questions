@@ -13,3 +13,14 @@ body, html {
 	height: 100vh;
 	background: linear-gradient(to bottom right, $TernaryColor, $QuaternaryColor);
 }
+
+.logo {
+	width: 10vh;
+}
+
+.logobar {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}

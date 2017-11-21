@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const about = require('./about');
-const quotes = require('/quotes');
+const quotes = require('./quotes');
 
 router.get('/', (req, res) => {
   res.render('index');

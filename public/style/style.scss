@@ -19,6 +19,7 @@ body, html {
 	width: 100%;
 	height: 100vh;
 	font-family: 'ubuntu-regular';
+	color: $FontColor;
 	background: linear-gradient(to bottom right, $TernaryColor, $QuaternaryColor);
 }
 
@@ -66,7 +67,22 @@ a:hover {
 	width: 80%;
 	margin: auto;
 	font-size: 72pt;
-	color: $FontColor;
 	text-align: center;
 	margin-top: 4%;
+}
+
+.profile_bar {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+
+	.profile {
+		padding: 1% 4%;
+
+		.profile-pic {
+			width: 80%;
+			border: 8px solid transparentize($LogoColor, .4);
+			border-radius: 10%;
+		}
+	}
 }

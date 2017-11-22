@@ -28,7 +28,7 @@ shit in tech. There should be more cute shit in tech.
 - [X] users can see the photos page
 - [X] the photos page has links to the home, quotes, bot, and about page
 - [X] users can see random photos
-- [ ] users can click a photo which randomizes photos
+- [X] users can click a photo which randomizes photos
 - [X] users can see a new random photo after 30 seconds
 
 #### quotes

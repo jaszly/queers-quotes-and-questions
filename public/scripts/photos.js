@@ -13,7 +13,7 @@ $(document).ready(function() {
          i++;
          setTimeout(imageLoop, 10000);
       };
-      $('button').click(function() {
+      $('.photo-container').click(function() {
          imageUrl = dir + i + fileextension;
          $('.photo-container').css('background-image', 'url(' + imageUrl + ')');
          i++;

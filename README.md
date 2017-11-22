@@ -1,9 +1,14 @@
 # queers-quotes-and-questions
+## installation:
+First run `npm install` then `npm run build` and finally `npm start`
+
+The page will now be running at localhost:3000
+
 ## project description:
 An informative and inspirational site for lgbtqs and allies
 
 ## specs
-- [ ] a user can view all three tabs and their accompanying content
+- [X] a user can view all three tabs and their accompanying content
 - [X] project is properly licesnsed
 - [X] design is cute and thematically consistent
 - [X] all quotes are stored in the public folder as JSON
@@ -17,9 +22,9 @@ An informative and inspirational site for lgbtqs and allies
 #### photos
 - [X] users can see the photos page
 - [X] the photos page has links to the home, quotes, bot, and about page
-- [ ] users can see random photos
+- [X] users can see random photos
 - [ ] users can click a photo which randomizes photos
-- [ ] users can see a new random photo after 30 seconds
+- [X] users can see a new random photo after 30 seconds
 
 #### quotes
 - [X] users can see the quotes page
@@ -32,8 +37,8 @@ An informative and inspirational site for lgbtqs and allies
 #### bot
 - [X] users can see the bot page
 - [X] the bot page has links to the home, quotes, photos, and about page
-- [ ] can respond to five separate questions
-- [ ] can give definitions for five separate terms
+- [X] can respond to five separate questions
+- [X] can give definitions for five separate terms
 
 #### about
 - [X] users can see the about page

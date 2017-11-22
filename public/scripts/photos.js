@@ -6,7 +6,7 @@ $(document).ready(function() {
    $(function imageLoop() {
       imageUrl = dir + i + fileextension;
       $('.photo-container').css('background-image', 'url(' + imageUrl + ')');
-      if (i == 20) {
+      if (i == 24) {
          i = 1;
          setTimeout(imageLoop, 10000);
       } else {
@@ -17,7 +17,7 @@ $(document).ready(function() {
          imageUrl = dir + i + fileextension;
          $('.photo-container').css('background-image', 'url(' + imageUrl + ')');
          i++;
-         if (i >= 13) {
+         if (i > 24) {
            i = 1;
          }
       });

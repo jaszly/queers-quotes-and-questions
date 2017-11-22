@@ -18,6 +18,9 @@ $(document).ready(function() {
          $('.photo-container').css('background-image', 'url(' + imageUrl + ')');
          console.log(i, "imageUrl", imageUrl)
          i++;
+         if (i >= 13) {
+           i = 1;
+         }
       });
    });
 });

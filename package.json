@@ -4,7 +4,7 @@
   "description": "An informative and inspirational site for lgbtqs and allies",
   "main": "app.js",
   "scripts": {
-    "start": "node ./src/app.js",
+    "start": "nodemon ./src/app.js",
     "build": "node-sass public/style/style.scss > public/style/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

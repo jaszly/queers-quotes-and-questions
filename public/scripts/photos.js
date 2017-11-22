@@ -16,7 +16,6 @@ $(document).ready(function() {
       $('button').click(function() {
          imageUrl = dir + i + fileextension;
          $('.photo-container').css('background-image', 'url(' + imageUrl + ')');
-         console.log(i, "imageUrl", imageUrl)
          i++;
          if (i >= 13) {
            i = 1;

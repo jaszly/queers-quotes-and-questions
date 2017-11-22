@@ -13,8 +13,8 @@ $(document).ready(function() {
       return response.json()
     }).then(function(quote) {
       for (let i in quote) {
-        listOfQuotes.push(quote[i].quoteText + "  -  ");
-        listOfAuthor.push(quote[i].quoteAuthor);
+        listOfQuotes.push(quote[i].quoteText );
+        listOfAuthor.push("  - " + quote[i].quoteAuthor);
       }
       changeText();
     });

@@ -30,5 +30,8 @@ $(document).ready(function() {
     quote.innerHTML = listOfQuotes[num];
     author.innerHTML = listOfAuthor[num];
     num++;
+    if (num >= 12) {
+      num = 1;
+    }
   });
 });

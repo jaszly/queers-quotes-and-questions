@@ -17,7 +17,7 @@ $FontColor: #DFD9E2;
 
 body, html {
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	text-align: center;
 	font-family: 'ubuntu-regular';
 	color: $FontColor;
@@ -26,10 +26,10 @@ body, html {
 
 .logobar {
 	width: 85%;
-	margin-top: 1%;
+	padding-top: 1%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 1%;
+	padding-bottom: 1%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;

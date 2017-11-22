@@ -17,7 +17,7 @@ $(document).ready(function() {
          imageUrl = dir + i + fileextension;
          $('.photo-container').css('background-image', 'url(' + imageUrl + ')');
          i++;
-         if (i >= 13) {
+         if (i >= 24) {
            i = 1;
          }
       });

@@ -8,7 +8,8 @@ $(document).ready(function(){
     $(".photo-container").empty();
     $("<img />").attr('src', dir + i + fileextension ).appendTo(".photo-container");
       if (i==20){
-        return;
+        i = 1;
+        setTimeout(imageloop, 10000);
       }
       else {
         i++;

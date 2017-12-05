@@ -23,7 +23,8 @@
     "express": "^4.16.2",
     "node-sass": "^4.7.2",
     "nodemon": "^1.12.1",
-    "pug": "^2.0.0-rc.4"
+    "pug": "^2.0.0-rc.4",
+    "react-simple-chatbot": "^0.2.9"
   },
   "devDependencies": {
     "eslint": "^4.12.1",

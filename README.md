@@ -7,11 +7,6 @@ The page will now be running at localhost:3000
 ## project description:
 An informative and inspirational site for lgbtqs and allies
 
-## how this project would inspire women to join Learner's Guild
-I believe that see a queer affirming and queer positive project on the web would
-inspire other queer women to want to do the same. Also, there isn't enough cute
-shit in tech. Or enough cute queer shit in the internet world. There should be more cute shit in tech. More positive queer things on the internets.
-
 ## specs
 - [X] a user can view all three tabs and their accompanying content
 - [X] project is properly licesnsed

@@ -1,8 +1,14 @@
 # Queers Quotes And Questions - Interesting, Inquisitve, Informative.
-Queers Quotes and Questions (QQQ) is a hackathon project built by 5 engineers of varying identities. On this page you can find inspiring quotes, pictures and a queer chatbot to answer various questions the inquisitive person may have about queer identity. 
+Queers Quotes and Questions (QQQ) is a ~fun and fancy~ hackathon project built by 5 engineers of varying identities. On this project you can find inspiring quotes, pictures and a queer chatbot!
 
-### Check it Out:
+### check it out:
 ![alt text](https://github.com/jaszly/queers-quotes-and-questions/blob/master/public/images/homepage.png)
+
+
+A Queer Chatbot? Yes! a QUEER Chatbot. Queerbot will answer various questions about queerness and identity, so your queer and trans friends don't have to :)
+Meet QueerBot below.
+
+![alt text](https://github.com/jaszly/queers-quotes-and-questions/blob/master/public/images/queerbotdemo.mov)
 
 ## to install:
 First run `npm install` then `npm run build` and finally `npm start`

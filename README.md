@@ -1,5 +1,5 @@
 # Queers Quotes And Questions - Interesting, Inquisitve, Informative.
-##### Queers Quotes and Questions (QQQ) is a hackathon project built by 5 engineers of varying identities. On this page you can find inspiring quotes, pictures and a queer chatbot to answer various questions the inquisitive person may have about queer identity. 
+Queers Quotes and Questions (QQQ) is a hackathon project built by 5 engineers of varying identities. On this page you can find inspiring quotes, pictures and a queer chatbot to answer various questions the inquisitive person may have about queer identity. 
 
 ### Check it Out:
 ![alt text](https://github.com/jaszly/queers-quotes-and-questions/blob/master/public/images/homepage.png)

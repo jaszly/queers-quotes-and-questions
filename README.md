@@ -9,9 +9,9 @@ Queers Quotes and Questions (QQQ) is a ~fun and fancy~ hackathon project built b
 ![alt text](https://github.com/jaszly/queers-quotes-and-questions/blob/master/public/images/githubimages/quotes1.png)
 
 A Queer Chatbot? Yes! a QUEER Chatbot. Queerbot will answer various questions about queerness and identity, so your queer and trans friends don't have to :)
-Meet QueerBot below.
+Meet QueerBot:
 
-![alt text](https://github.com/jaszly/queers-quotes-and-questions/blob/master/public/images/githubimages/queerbotdemo.mov)
+![alt text]<a href="https://imgflip.com/gif/22eil0"><img src="https://i.imgflip.com/22eil0.gif" title="made at imgflip.com"/></a>
 
 ## to install:
 First run `npm install` then `npm run build` and finally `npm start`

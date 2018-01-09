@@ -1,13 +1,14 @@
-# queers-quotes-and-questions
-## installation:
-First run `npm install` then `npm run build` and finally `npm start`
+# Queers Quotes And Questions - Interesting, Inquisitve, Informative.
+##### Queers Quotes and Questions (QQQ) is a hackathon project built by 5 engineers of varying identities. On this page you can find inspiring quotes, pictures and a queer chatbot to answer various questions the inquisitive person may have about queer identity. 
 
+### Check it Out:
+![alt text](https://github.com/jaszly/queers-quotes-and-questions/blob/master/public/images/homepage.png)
+
+## to install:
+First run `npm install` then `npm run build` and finally `npm start`
 The page will now be running at localhost:3000
 
-## project description:
-An informative and inspirational site for lgbtqs and allies
-
-## specs
+## hackathon specs:
 - [X] a user can view all three tabs and their accompanying content
 - [X] project is properly licesnsed
 - [X] design is cute and thematically consistent

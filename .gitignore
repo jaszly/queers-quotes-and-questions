@@ -59,3 +59,6 @@ typings/
 
 # compiled css
 *.css
+
+# macOS specifics
+.DS_Store
